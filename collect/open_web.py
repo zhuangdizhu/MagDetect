@@ -14,7 +14,7 @@ closeItvl = 5
 outputDir = "../data/gen/"
 default_explore = "Google\ Chrome.app"
 default_explore = "Safari.app"
-web_idxs = range(20)
+web_idxs = range(60, 70)
 
 k = PyKeyboard()
 
@@ -57,6 +57,8 @@ if __name__ == "__main__":
             url = prefix + line
 
             # open a web and sleep for a while
+            printline = "Open #" +str(i+1) + ": " + line
+            print(printline)
             c_time = str(time.time())
             logstamp = "%s %d\n" % (c_time, i+1)
             f_out.write(logstamp)

@@ -59,10 +59,8 @@ if __name__ == "__main__":
                 magy = float(row[5])
                 magz = float(row[6])
                 f.write("%.5f,%.2f,%.2f,%.2f\n" %(ts, magx, magy, magz))
-                print("%.5f,%.2f,%.2f,%.2f\n" %(ts, magx, magy, magz))
+                #print("%.5f,%.2f,%.2f,%.2f\n" %(ts, magx, magy, magz))
             except Exception as e:
                 continue
 
-
-
-
+    print("Write to file:" + input_filename + ".mag.txt")

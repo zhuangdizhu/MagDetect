@@ -37,7 +37,6 @@ paypal.com
 whatsapp.com
 popads.net
 pinterest.com
-xhamster.com
 espn.com
 adobe.com
 onclkds.com
@@ -62,7 +61,6 @@ soundcloud.com
 nytimes.com
 naver.com
 flipkart.com
-fc2.com
 thestartmagazine.com
 booking.com
 ettoday.net
